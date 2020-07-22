@@ -4,4 +4,4 @@
 - 💬 Ask me about geospatial things and web dev
 - 📫 How to reach me: `chiubaca` everywhere!
 - 😄 Pronouns: he, him
-- ⚡ Fun fact: ~~I still enjoy DBZ~~  Nothing, I cant think of anything at all...
+- ⚡ When I'm not coding: I love cooking 👨‍🍳 , I've started learning Jujitsu 👊 and I play Badminton 🏸
