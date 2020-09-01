@@ -1,9 +1,9 @@
 # Hi 👋, I'm Alex Chiu
 
 
-🌱 I’m currently learning TypeScript and Vue.js
-💬 Ask me about geospatial things and web dev
-⚡ I love cooking 👨‍🍳 , Jujitsu 👊 and Badminton 🏸
+- 🌱 I’m currently learning TypeScript and Vue.js
+- 💬 Ask me about geospatial things and web dev
+- ⚡ I love cooking 👨‍🍳 , Jujitsu 👊 and Badminton 🏸
 
 <b>📕 Latest blog posts</b>
 
