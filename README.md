@@ -2,8 +2,8 @@
 
 
 - 🌱 I’m currently learning TypeScript and Vue.js
-- 💬 Ask me about geospatial things and web dev
-- ⚡ I love cooking 👨‍🍳 , Jujitsu 👊 and Badminton 🏸
+- 💬 Interested in all things web dev
+- ⚡ #LearnInPublic 👨‍💻 Building for fun.
 
 <b>📕 Latest blog posts</b>
 
