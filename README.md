@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning TypeScript and Vue.js
 - 💬 Interested in all things web dev
-- ⚡ #LearnInPublic 👨‍💻 Building for fun.
+- ⚡ Learning In Public 👨‍💻 Building for fun.
 
 <b>📕 Latest blog posts</b>
 
