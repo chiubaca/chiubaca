@@ -8,7 +8,7 @@
 <b>📕 Latest blog posts</b>
 
 <!-- BLOG-POST-LIST:START -->
-- [Nuxt.js is Awesome](https://dev.to/chiubaca/jottivity-dev-diary-5-nuxt-is-awesome-4ib4)
+- [Using JavaScript to write PostgreSQL functions](https://bit.ly/2JPzHha)
 - [TypeScript and Netlify Functions](https://dev.to/chiubaca/typescript-and-netlify-functions-37b8)
 - [Build a serverless CRUD app with authentication using Vue.js Netlify and FaunaDB](https://dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno)
 <!-- BLOG-POST-LIST:END -->
