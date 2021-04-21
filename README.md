@@ -1,8 +1,6 @@
 # Hi 👋, I'm Alex Chiu
 
-
-- 🌱 I’m currently learning TypeScript and Vue.js
-- 💬 Interested in all things web dev
+- 💬 Full JS/TS Developer [@NEVERBLAND](https://neverbland.com/)
 - ⚡ Learning In Public 👨‍💻 Building for fun.
 
 <b>📕 Latest blog posts</b>
