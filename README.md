@@ -1,7 +1,7 @@
 # Hi 👋, I'm Alex Chiu
 
-- 💬 Full JS/TS Developer [@NEVERBLAND](https://neverbland.com/)
-- ⚡ Learning In Public 👨‍💻 Building for fun.
+💬 Full JS/TS Developer [@NEVERBLAND](https://neverbland.com/)
+⚡ Learning In Public 👨‍💻 Building for fun.
 
 <b>📕 Latest blog posts</b>
 
