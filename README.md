@@ -1,4 +1,4 @@
-# Hi 👋, I'm Alex Chiu
+# Hey 👋, I'm Alex!
 
 💬 Full JS/TS Developer [@NEVERBLAND](https://neverbland.com/)
 ⚡ Learning In Public 👨‍💻 Building for fun.
