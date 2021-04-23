@@ -1,6 +1,6 @@
 # Hey 👋, I'm Alex!
 
-- 💬 Full JS/TS Developer [@NEVERBLAND](https://neverbland.com/)
+- 💬 Fullstack JS/TS Developer [@NEVERBLAND](https://neverbland.com/)
 - ⚡ Learning In Public 👨‍💻 Building for fun.
 
 <b>📕 Latest blog posts</b>
