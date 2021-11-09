@@ -7,6 +7,7 @@
 <b>📕 Latest blog posts</b>
 
 <!-- BLOG-POST-LIST:START -->
+- [How use npm modules client-side in Astro.js `.astro` files](https://dev.to/chiubaca/how-use-npm-modules-client-side-in-astrojs-3m37)
 - [Using JavaScript to write PostgreSQL functions](https://bit.ly/2JPzHha)
 - [TypeScript and Netlify Functions](https://dev.to/chiubaca/typescript-and-netlify-functions-37b8)
 - [Build a serverless CRUD app with authentication using Vue.js Netlify and FaunaDB](https://dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno)
