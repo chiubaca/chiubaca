@@ -57,7 +57,7 @@ jobs:
           # README
           Hey 👋, I'm Alex!
           
-          ## Latest Blog Posts
+          ## Latest Blog Posts ✏️
           
           EOF
           fi
@@ -91,7 +91,7 @@ jobs:
           
           echo "" >> README.md
           echo "## Connect with me" >> README.md
-          echo "[Bluesky](https://bsky.app/profile/chiubaca.bsky.social) | [Twitter](https://twitter.com/chiubaca) | [Mastodon](https://mastodon.social/@chiubaca)" >> README.md
+          echo "<p align=\"center\"><a href=\"https://bsky.app/profile/chiubaca.com\">Bluesky</a> | <a href=\"https://twitter.com/chiubaca\">Twitter</a> | <a href=\"https://mas.to/@chiubaca\">Mastodon</a></p>" >> README.md
           echo "" >> README.md
           echo "*Last updated: $(date)*" >> README.md
           
