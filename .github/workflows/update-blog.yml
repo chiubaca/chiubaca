@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       update_all:
-        description: 'Update all posts (not just latest)'
+        description: "Update all posts (not just latest)"
         required: false
-        default: 'false'
+        default: "false"
         type: boolean
 
 jobs:
@@ -14,33 +14,33 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          
+          node-version: "18"
+
       - name: Fetch RSS and update markdown
         run: |
           # Install curl and jq if not present
           sudo apt-get update && sudo apt-get install -y curl jq
-          
+
           # Fetch RSS feed
           RSS_CONTENT=$(curl -s "https://chiubaca.com/rss.xml")
-          
+
           # Parse RSS and extract latest posts
           echo "$RSS_CONTENT" | xmllint --xpath "//item[position()<=5]" - 2>/dev/null > /tmp/items.xml || {
             echo "Failed to parse RSS. Installing xmlstarlet..."
             sudo apt-get install -y xmlstarlet
             echo "$RSS_CONTENT" | xmlstarlet sel -t -m "//item[position()<=5]" -c "." -n > /tmp/items.xml
           }
-          
+
           # Preserve existing title and intro, create new content
           if [[ -f README.md ]]; then
             # Extract the first two lines (title and intro) from existing README
@@ -56,12 +56,12 @@ jobs:
             cat > README.md << 'EOF'
           # README
           Hey 👋, I'm Alex!
-          
-          ## Latest Blog Posts ✏️
-          
+
+          ## Latest blog posts ✏️
+
           EOF
           fi
-          
+
           # Parse items and add to markdown (using xmlstarlet for reliability)
           if command -v xmlstarlet >/dev/null 2>&1; then
             while IFS= read -r item; do
@@ -88,13 +88,13 @@ jobs:
             # Fallback: simple text parsing
             echo "- RSS parsing failed. Please check the feed format." >> README.md
           fi
-          
+
           echo "" >> README.md
-          echo "## Connect with me" >> README.md
+          echo "## Connect with me 🤙🏼" >> README.md
           echo "<p align=\"center\"><a href=\"https://bsky.app/profile/chiubaca.com\">Bluesky</a> | <a href=\"https://twitter.com/chiubaca\">Twitter</a> | <a href=\"https://mas.to/@chiubaca\">Mastodon</a></p>" >> README.md
           echo "" >> README.md
           echo "*Last updated: $(date)*" >> README.md
-          
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
