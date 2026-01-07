@@ -46,18 +46,18 @@ jobs:
             # Extract the first two lines (title and intro) from existing README
             TITLE=$(head -n 1 README.md)
             INTRO=$(head -n 2 README.md | tail -n 1)
-            echo "$TITLE" > README.md
-            echo "$INTRO" >> README.md
+            echo "<p align=\"center\">$TITLE</p>" > README.md
+            echo "<p align=\"center\">$INTRO</p>" >> README.md
             echo "" >> README.md
-            echo "## Latest Blog Posts" >> README.md
+            echo "<p align=\"center\"><strong>Latest blog posts ✏️</strong></p>" >> README.md
             echo "" >> README.md
           else
             # Create new README with default title and intro
             cat > README.md << 'EOF'
-          # README
-          Hey 👋, I'm Alex!
+          <p align="center"># README</p>
+          <p align="center">Hey 👋, I'm Alex!</p>
 
-          ## Latest blog posts ✏️
+          <p align="center"><strong>Latest blog posts ✏️</strong></p>
 
           EOF
           fi
@@ -78,9 +78,9 @@ jobs:
                 fi
                 
                 if [[ -n "$date_str" ]]; then
-                  echo "- **[$title]($link)** - $date_str" >> README.md
+                  echo "<p align=\"center\">- <strong>[$title]($link)</strong> - $date_str</p>" >> README.md
                 else
-                  echo "- **[$title]($link)**" >> README.md
+                  echo "<p align=\"center\">- <strong>[$title]($link)</strong></p>" >> README.md
                 fi
               fi
             done < <(echo "$RSS_CONTENT" | xmlstarlet sel -t -m "//item[position()<=5]" -c "." -n)
@@ -90,10 +90,10 @@ jobs:
           fi
 
           echo "" >> README.md
-          echo "## Connect with me 🤙🏼" >> README.md
+          echo "<p align=\"center\"><strong>Connect with me 🤙🏼</strong></p>" >> README.md
           echo "<p align=\"center\"><a href=\"https://bsky.app/profile/chiubaca.com\">Bluesky</a> | <a href=\"https://twitter.com/chiubaca\">Twitter</a> | <a href=\"https://mas.to/@chiubaca\">Mastodon</a></p>" >> README.md
           echo "" >> README.md
-          echo "*Last updated: $(date)*" >> README.md
+          echo "<p align=\"center\"><em>Last updated: $(date)</em></p>" >> README.md
 
       - name: Commit and push changes
         run: |
