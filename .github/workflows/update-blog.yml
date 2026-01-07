@@ -68,18 +68,20 @@ jobs:
               title=$(echo "$item" | xmlstarlet sel -t -v "//title" - 2>/dev/null | head -1)
               link=$(echo "$item" | xmlstarlet sel -t -v "//link" - 2>/dev/null | head -1)
               pubDate=$(echo "$item" | xmlstarlet sel -t -v "//pubDate" - 2>/dev/null | head -1)
-              description=$(echo "$item" | xmlstarlet sel -t -v "//description" - 2>/dev/null | head -1)
               
               if [[ -n "$title" && -n "$link" ]]; then
-                echo "- **[$title]($link)**" >> README.md
+                # Format date nicely
                 if [[ -n "$pubDate" ]]; then
-                  echo "  Published: $pubDate" >> README.md
+                  date_str=$(date -d "$pubDate" "+%b %d, %Y" 2>/dev/null || echo "$pubDate")
+                else
+                  date_str=""
                 fi
-                if [[ -n "$description" ]]; then
-                  echo "  $description" | head -c 200 >> README.md
-                  echo "..." >> README.md
+                
+                if [[ -n "$date_str" ]]; then
+                  echo "- **[$title]($link)** - $date_str" >> README.md
+                else
+                  echo "- **[$title]($link)**" >> README.md
                 fi
-                echo "" >> README.md
               fi
             done < <(echo "$RSS_CONTENT" | xmlstarlet sel -t -m "//item[position()<=5]" -c "." -n)
           else
@@ -88,7 +90,9 @@ jobs:
           fi
           
           echo "" >> README.md
-          echo "---" >> README.md
+          echo "## Connect with me" >> README.md
+          echo "[Bluesky](https://bsky.app/profile/chiubaca.bsky.social) | [Twitter](https://twitter.com/chiubaca) | [Mastodon](https://mastodon.social/@chiubaca)" >> README.md
+          echo "" >> README.md
           echo "*Last updated: $(date)*" >> README.md
           
       - name: Commit and push changes
