@@ -9,7 +9,7 @@
 - **[How I self-host my media server for a free Netflix experience](https://chiubaca.com/media-server/)** - Aug 17, 2025
 - **[4am Hugs](https://chiubaca.com/4am-hugs/)** - Jul 06, 2025
 
-## Connect with me
-[Bluesky](https://bsky.app/profile/chiubaca.bsky.social) | [Twitter](https://twitter.com/chiubaca) | [Mastodon](https://mastodon.social/@chiubaca)
+## Connect with me 🤙🏼
+<p align="center"><a href="https://bsky.app/profile/chiubaca.com">Bluesky</a> | <a href="https://twitter.com/chiubaca">Twitter</a> | <a href="https://mas.to/@chiubaca">Mastodon</a></p>
 
-*Last updated: Wed Jan  7 20:20:54 UTC 2026*
+*Last updated: Wed Jan  7 20:28:33 UTC 2026*
