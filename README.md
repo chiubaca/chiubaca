@@ -1,22 +1,33 @@
 # Hey 👋, I'm Alex!
 
-- 💬 Fullstack Web Dev
-- ⚡ Learning In Public 
-- 👨‍💻 Building for fun
 
-<b>📕 Latest blog posts</b>
+## Latest Blog Posts
 
-<!-- BLOG-POST-LIST:START -->
-- [Easy React data fetching with the new `use()` hook](https://dev.to/chiubaca/easy-react-data-fetching-with-use-16jg)
-- [Using JavaScript to write PostgreSQL functions](https://bit.ly/2JPzHha)
-- [TypeScript and Netlify Functions](https://dev.to/chiubaca/typescript-and-netlify-functions-37b8)
-- [Build a serverless CRUD app with authentication using Vue.js Netlify and FaunaDB](https://dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno)
-<!-- BLOG-POST-LIST:END -->
+- **[Skill-stacking](https://chiubaca.com/skill-stacking/)**
+  Published: Wed, 07 Jan 2026 00:00:00 GMT
+  Batch up learning new skills
+...
 
-<b> 🤝To connect with me</b>
-<p align = "center">
+- **[Leaning into the vibes](https://chiubaca.com/leaning-into-the-vibes/)**
+  Published: Wed, 07 Jan 2026 00:00:00 GMT
+  Some notes on using these new AI tools in practice
+...
 
-[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=black" />](https://twitter.com/chiubaca) 
-[<img src="https://img.shields.io/badge/dev.to-%2312100E.svg?&style=for-the-badge&logo=dev&logoColor=white&color=black" />](https://dev.to/chiubaca)
+- **[Tech I'm Interested in 2026](https://chiubaca.com/tech-im-interested-in-2026/)**
+  Published: Fri, 02 Jan 2026 00:00:00 GMT
+  Technologies that I want to explore deeper in 2026
+...
 
-</p>
+- **[How I self-host my media server for a free Netflix experience](https://chiubaca.com/media-server/)**
+  Published: Sun, 17 Aug 2025 00:00:00 GMT
+  How I self-host my home media server
+...
+
+- **[4am Hugs](https://chiubaca.com/4am-hugs/)**
+  Published: Sun, 06 Jul 2025 00:00:00 GMT
+  a new dad and a newborn
+...
+
+
+---
+*Last updated: Wed Jan  7 20:10:50 UTC 2026*
