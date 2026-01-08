@@ -17,7 +17,7 @@ echo "$RSS_CONTENT" | xmllint --xpath "//item[position()<=5]" - 2>/dev/null > /t
 cat > README.md << 'EOF'
 <div align="center">
 
-# Hey 👋, I'm Alex!
+# Hey, I'm Alex! 👋
 
 </div>
 
